@@ -1,0 +1,85 @@
+.navBar{
+    position: relative;
+}
+.main .sidebar{
+    position: relative !important;
+    color: #212529 !important;
+}
+
+.navbar-dark{
+    background-color: #ffffff !important;
+}
+.navbar-dark .container-fluid a p{
+    color: green;
+    font-size: 30px;
+    display: inline;
+}
+#nav_bar .nav_button {
+    display:inline-block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#nav_bar{
+    padding: 10px;
+    background-color: rgb(108, 219, 108);
+    position: relative;
+    margin-right: 30%;
+    border-radius: 10px;
+}
+#nav_bar .nav_button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#nav_bar .divider{
+    height: 20px;
+    width: 2px;
+    background-color: rgb(255, 255, 255) ;
+    top: 6px;
+    position: relative;
+}
+.main .col-sm .btn{
+    padding: 20px;
+    background-color: rgb(106, 219, 106);
+    border-radius: 50px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.column .txt1 p{
+    color: black;
+    font-weight: 600;
+}
+.column .txt1{
+    display: inline;
+}
+.column .txt1 .p0{
+    color: rgb(106, 219, 106);
+    font-size: 60px;
+    font-weight:bold;
+    display: inline;
+}
+.column .txt1 .p1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight:bold;
+    display: inline;
+}
+.column .txt2{
+    margin-top: 70px;
+    font-size: 30px;
+}
+footer{
+    height: 50px;
+}
+footer .main{
+    float: left;
+    width: 400px;
+}
+footer .col-sm img{
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+}
