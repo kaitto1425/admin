@@ -39,14 +39,14 @@ body{
     border: none;
     outline: none;
     padding: 10px 16px;
-    background-color: #f1f1f1;
+    background-color: #000000;
     cursor: pointer;
     font-size: 18px;
   }
   
   /* Style the active class, and buttons on mouse-over */
   .active, .btn:hover {
-    background-color: #0FA956;
+    background-color: #0FA956 !important;
   }
 
   .active-notification, .notification-btn:hover{
@@ -227,4 +227,11 @@ table #deliveries{
 
 .modal-open {
   overflow: visible;
+}
+.odd:hover,.even:hover{
+  background-color: rgb(165, 165, 165);
+}
+.dataTables_scrollHead{
+  width: 100% !important;
+  background-color: #bbbbbb;
 }

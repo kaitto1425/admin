@@ -38,6 +38,7 @@
     top: 6px;
     position: relative;
 }
+
 .main .col-sm .btn{
     padding: 20px;
     background-color: rgb(106, 219, 106);
@@ -71,15 +72,152 @@
     margin-top: 70px;
     font-size: 30px;
 }
-footer{
-    height: 50px;
+button.owl-prev span,button.owl-next span{
+    font-size: 30px !important;
+    text-align: center;
 }
-footer .main{
-    float: left;
-    width: 400px;
+button.owl-prev span{
+    padding: 10px 10px;
 }
-footer .col-sm img{
-    border-radius: 50%;
-    height: 50px;
+button.owl-prev{
+    position: relative;
+    right: 100px;
+}
+button.owl-next span{
+    padding: 10px 10px;
+}
+button.owl-next{
+    position: relative;
+    left: 100px;
+}
+button.owl-prev span::after{
+    content: "Prev";
+}
+button.owl-next span::before{
+    content: "Next";
+}
+
+
+.owl-carousel{
+    left: 7.5%;
+    color: rgb(0, 0, 0) !important;
+    width: 85% !important;
+    position: relative;
+}
+.owl-carousel .background{
     position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+}
+div.owl-item{
+    height: 320px;
+}
+
+.owl-stage .owl-item img{
+    margin: 10px;
+    width: 200px !important;
+    height: 300;
+}
+.owl-stage .owl-item .actisdve{
+    background-color: none !important;
+}
+
+.fa {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px !important;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .alex .fa-facebook{
+      color: #ea786ba8;
+  }
+  .alex .fa-linkedin{
+    color: #ea786ba8
+  }
+  .owl-item .alex{
+      position: relative;
+      z-index: 1;
+      bottom: 130px;
+      background-color:#ea786ba8;
+      width: 170px;
+      border-radius: 20px;
+      color: white;
+      height: 160px;
+      display:block;
+  }
+  .cielo .fa-facebook{
+    color: #ed9083a8;
+}
+.cielo .fa-linkedin{
+  color: #ed9083a8;
+}
+.owl-item .cielo{
+    position: relative;
+    z-index: 1;
+    bottom: 130px;
+    background-color:#ed9083a8;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    height: 160px;
+}
+.robie .fa-facebook{
+    color: #ed9083a8;
+}
+.robie .fa-linkedin{
+  color: #ed9083a8;
+}
+.owl-item .robie{
+    position: relative;
+    z-index: 1;
+    bottom: 130px;
+    background-color:#ed9083a8;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    height: 160px;
+}
+.roy .fa-facebook{
+    color: #80b483a8;
+}
+.roy .fa-linkedin{
+  color: #80b483a8;
+}
+.owl-item .roy{
+    position: relative;
+    z-index: 1;
+    bottom: 130px;
+    background-color:#80b483a8;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    height: 160px;
+}
+.clarence .fa-facebook{
+    color: #f2bb53a8;
+}
+.clarence .fa-linkedin{
+  color: #f2bb53a8;
+}
+.owl-item .clarence{
+    position: relative;
+    z-index: 1;
+    bottom: 130px;
+    background-color:#f2bb53a8;
+    width: 170px;
+    border-radius: 20px;
+    color: white;
+    height: 160px;
+}
+
+.owl-carousel{
+    width: 90%;
+    height: auto;
+}
+.owl-carousel .owl-stage-outer .owl-stage .owl-item{
+    display: inline-block !important;
 }

@@ -53,7 +53,8 @@ $(document).ready(async function() {
     console.log(ridersdataset)
     var rider =$('#riders').DataTable( {
         dom: 'Bfrtip',
-        scrollY:'50vh',
+
+        scrollY:'70vh',
         scrollX:true,
         columns: [
             { title: "Name" ,
